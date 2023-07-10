@@ -1,4 +1,4 @@
-name: WaxDotnetVersionFinder
+name: DotnetVersionFinder
 description: 'Get the version of dotnet project'
 inputs:
   path:
