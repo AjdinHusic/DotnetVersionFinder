@@ -16401,7 +16401,7 @@ try {
   // Log files and folders in the current working directory
   console.log(
     "Files and folders in the current working directory:",
-    readdirSync(core.cwd()).join(", ")
+    readdirSync(process.cwd()).join(", ")
   );
 
   const file = readFileSync(path);
